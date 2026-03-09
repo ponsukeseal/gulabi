@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>leroypmogulabi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:linear-gradient(270deg,#0f0f0f,#1a1a1a,#0f0f0f);
+  background-size:600% 600%;
+  animation:bgmove 20s infinite;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+}
+
+@keyframes bgmove{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+h1{
+  font-size:clamp(28px,6vw,40px);
+  text-shadow:
+  0 0 10px #1db954,
+  0 0 20px #1db954,
+  0 0 40px #1db954;
+}
+
+audio{
+  margin-top:30px;
+  width:90%;
+  max-width:400px;
+  filter:invert(1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>leroypmo</h1>
+
+<audio controls>
+<source src="gulabi.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
